@@ -2,6 +2,7 @@ import cv2
 import math
 import numpy as np
 
+
 target_color = {
     'Green' :{
         'min':[35, 43, 46],
@@ -9,7 +10,11 @@ target_color = {
     },
     'Yellow':{
         'min':[26, 43, 46],
-        'max':[34, 255, 255]
+        'max':[34, 255, 150]
+    },
+    'blue':{
+        'min':[100, 43, 46],
+        'max':[124, 255, 255]
     }
 }
 
